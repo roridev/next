@@ -1,4 +1,4 @@
-# alice's flully idealism zone~
+# alice's fluffy idealism zone~
 
 This is a repository about ideas~.  
 Stuff written here may manifest as actual projects in the future, but nothing is guaranteed.  
