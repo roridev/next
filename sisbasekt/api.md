@@ -2,6 +2,6 @@
 `Type: Subproject`  
 Subproject of: [`SisbaseKT`](../sisbasekt.md)
 
-Api for developing extensions, has two main abstractions: Commands and Systems.
-
+A collection of interfaces representing the Discord API Spec.  
+Implemented by `Backends`.  
 

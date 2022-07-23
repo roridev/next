@@ -4,7 +4,7 @@ Kotlin discord bot framework using the lessons learned by developing sisbase.net
 
 ## Subprojects
 [`sisbase-core`](sisbasekt/core.md) - Fabric-like extension manager.  
-[`sisbase-api`](sisbasekt/api.md) - Api for writing sisbase extensions.   
+[`sisbase-api`](sisbasekt/api.md) - A collection of interfaces representing the Discord API Spec.  
 [`sisbase-commands`](sisbasekt/commands.md) - Command Parsing Library.  
 [`sisbase-types`](sisbasekt/types.md) - Shared discord types.  
 
