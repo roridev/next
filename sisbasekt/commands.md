@@ -36,7 +36,7 @@ command: "group/subcommand"
 identifier: "your-bot::group/subcommand"
 ```
 
-Identifiers don't care about overloads, this is handled internally by the library.  
+Identifiers don't care about command overloads, this is handled internally by the library.  
 Mismatches for commands with equal names registered by the same extension will cause the extension to be rejected. (DUPLICATE COMMAND)  
 Mismatches for commands with equal names registered by different extensions are to be resolved manually on the `overrides.yml` file. (COMMAND MISMATCH)  
 
