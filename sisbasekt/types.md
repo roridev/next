@@ -12,4 +12,10 @@ The objective of this project is to serve as a bridge between different backends
 
 ## Package Structure
 `org.siscode.sisbase-types`  
-Base Package.
+Base Package.  
+
+`org.siscode.sisbase-types.rest`  
+Discord Rest API Types.  
+
+`org.siscode.sisbase-type.gateway`  
+Discord Gateway Types.  
