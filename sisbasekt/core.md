@@ -26,4 +26,5 @@ Discord extension manager
 - Discord Connection `Important!`
 - Secret Storage
 - Configuration API
-- Prefix Handling `Important!`
+- Prefix Handling `Important!`  
+*Note: Prefix handling must be open to the user as easily allow configuring an external prefix handler.*  
