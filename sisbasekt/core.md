@@ -23,7 +23,8 @@ Discord extension manager
   - `PostInit`
   - `Disable` - **Required**  
 
-- Discord Connection `Important!`
+- Discord Connection `Important!`  
+*Note: Actual discord connection will be delegated to a `Backend`*  
 - Secret Storage
 - Configuration API
 - Prefix Handling `Important!`  
