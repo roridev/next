@@ -2,7 +2,7 @@
 `Type: Subproject`  
 Subproject of: [`SisbaseKT`](../sisbasekt.md)  
 
-Command parsing library.  
+Command library.  
 
 Implemented as an extension. Users can use `sisbase-commands` optionally for command handling, but can also use their own command handling solutions if they so desire.  
 
