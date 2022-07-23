@@ -19,6 +19,19 @@ Discord Rest API Types.
 
 `org.siscode.sisbase-type.gateway`  
 Discord Gateway Types.  
+
+`org.siscode.sisbase-type.annotation`  
+Annotations used by the library  
+
+## Annotations
+
+### `@Since`
+Describes which version of the API added that Type.  
+
+| Field     | Type              | Description                              |
+|-----------|-------------------|------------------------------------------|
+| `version` | DiscordApiVersion | Version of the API which added that type |
+
 ## Other Types
 
 ### `DiscordApiVersion`
