@@ -2,10 +2,6 @@
 `Type: Metaproject`   
 Kotlin discord bot framework using the lessons learned by developing sisbase.net
 
-## Uses
-[`Kord`](https://github.com/kordlib/kord) - **Discord Library Wrapper** 
-[`pf4j`](https://github.com/pf4j/pf4j) - **Plugin Framework**
-
 ## Subprojects
 [`sisbase-core`](sisbasekt/core.md) - Fabric-like extension manager.  
 [`sisbase-api`](sisbasekt/api.md) - Api for writing sisbase extensions.   
