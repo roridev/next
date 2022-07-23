@@ -47,3 +47,5 @@ While some libraries never left the beta phase.
 If the library you're using dies, just *swap to a different one*, **no code changes required**.  
 Make the choice of the backing a mere ~runtime detail~. Your code shall run the same on Discord4j and Kord.  
 
+*Note: 
+Thanks to @wffirilat for bringing this to my attention, wouldn't have thougth about this on my own!*
