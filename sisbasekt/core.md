@@ -29,3 +29,23 @@ Discord extension manager
 - Configuration API
 - Prefix Handling `Important!`  
 *Note: Prefix handling must be open to the user as easily allow configuring an external prefix handler.*  
+
+## Sisbase-Core Lifetime Description
+
+### Initialization
+
+1. Loads configuration
+2. Start the Backend
+3. Wait for the Backend to connect to Discord
+4. Loads Extensions
+
+### Lost Connection to Backend
+
+5. Stops all Extensions
+6. Try restarting the backend 3 times
+7. Shuts down the backend
+8. Shuts down
+
+### Connection to Backend is Resumed
+
+5. Loads Extensions
