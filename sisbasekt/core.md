@@ -59,9 +59,9 @@ Implemented by a `Expansion` that has the following attributes:
 Background procedures that reads/writes data to Discord.  
 
 Implemented by a `Expansion` that has the following attributes:
-| Field           | Type               | Description                                                          |
-|-----------------|--------------------|----------------------------------------------------------------------|
-| `applyToClient` | suspend fun (Kord) | A function that will be applied to the discord client after `OnInit` |
+| Field           | Type                 | Description                                                          |
+|-----------------|----------------------|----------------------------------------------------------------------|
+| `applyToClient` | suspend fun (Client) | A function that will be applied to the discord client after `OnInit` |
 
 ### Single-instance
 Simple background procedures that are set once the bot loads and are used in other parts of the bot.  
