@@ -28,7 +28,9 @@ The library should be as extensible as possible as to allow advanced extension a
 
 If discord changes their API, upgrading a sisbasekt bot would be as easy as updating the `sisbase-core.jar` loader.  
 If an extension author updates their extension, upgrading it would be as easy as replacing the `extensions/extension.jar` file.  
-If someone decides to port their fat bot into a sisbase extension the path should be as clear as possible.  
+If someone decides to port their "fat bot"<sup>1</sup> into a sisbase extension the path should be as clear as possible.  
+
+<sup>1</sup>- Bots which embed the discord library with them.   
 
 - Modularity
 
