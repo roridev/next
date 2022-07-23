@@ -35,11 +35,6 @@ If someone decides to port their fat bot into a sisbase extension the path shoul
 Extension writers should only import what they need.  
 E.g. If they already have their own solutions for command handling there would be no need to use `sisbase-commands`.  
 
-- Abstraction
-
-The end goal is to abstract away as much as possible from the bot creation process.  
-In the most ideal scenario, an extension shouldn't care what discord library is used on the backend.  
-
 - Backend Agnostic
 
 In order to explain why this is a goal, a bit of history is required.  
