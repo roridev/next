@@ -19,3 +19,8 @@ Discord Rest API Types.
 
 `org.siscode.sisbase-type.gateway`  
 Discord Gateway Types.  
+## Other Types
+
+### `DiscordApiVersion`
+An Enum containing all Discord API Versions so that no invalid versions can be represented.
+
