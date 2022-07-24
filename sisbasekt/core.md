@@ -86,3 +86,7 @@ Simple background procedures that are set once the bot loads and are used in oth
 ### Connection to Backend is Resumed
 
 5. Loads Extensions
+
+## Configuration / Metadata
+
+See the [sisbasekt.mod.json Documentation](./mod_json.md) for information about the Metadata File Format.  
