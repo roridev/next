@@ -1,6 +1,6 @@
-# sisbase-core
+# linen-core
 `Type: Subproject`  
-Subproject of : [`SisbaseKT`](../sisbasekt.md)
+Subproject of : [`linen`](../linen.md)
 
 Discord extension manager
 

@@ -1,12 +1,12 @@
-# SisbaseKT
+# linen
 `Type: Metaproject`   
 Kotlin discord bot framework using the lessons learned by developing sisbase.net
 
 ## Subprojects
-[`sisbase-core`](sisbasekt/core.md) - Fabric-like extension manager.  
-[`sisbase-api`](sisbasekt/api.md) - A collection of interfaces representing the Discord API Spec.  
-[`sisbase-commands`](sisbasekt/commands.md) - Command Library.  
-[`sisbase-types`](sisbasekt/types.md) - Shared discord types.  
+[`linen-core`](linen/core.md) - Fabric-like extension manager.  
+[`linen-api`](linen/api.md) - A collection of interfaces representing the Discord API Spec.  
+[`linen-commands`](linen/commands.md) - Command Library.  
+[`linen-types`](linen/types.md) - Shared discord types.  
 
 ## Rationale
 Learning [`kotlin-coroutines`](https://github.com/Kotlin/kotlinx.coroutines).  

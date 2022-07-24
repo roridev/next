@@ -1,7 +1,7 @@
-# sisbase-types
+# linen-types
 
 `Type: Shared Dependency`  
-[Go Back to Project Outline](../sisbasekt.md)  
+[Go Back to Project Outline](../linen.md)  
 
 
 Discord data types.  
