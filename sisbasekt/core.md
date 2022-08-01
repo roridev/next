@@ -95,7 +95,7 @@ See the [sisbasekt.mod.json Documentation](./mod_json.md) for information about 
 -! IDEA: Due to an change in [`types`](types.md), deriving the `@RequireApiVersion` automatically could be done.  
 -: [Not Required] [FUTURE] 
 
-### Developing extensions
+## Developing extensions
 
 In order to make sure your extension is propperly supported, extension writers can annotate their systems with `@RequireApiVersion`.  
 
