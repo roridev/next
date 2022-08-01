@@ -6,6 +6,7 @@ Discord extension manager
 
 ## Dependencies
 [PF4J](https://github.com/pf4j/pf4j) - Plugin Framework   
+[koin](https://github.com/InsertKoinIO/koin) - Dependency Injection  
 [api](api.md)  
 
 ## Features
