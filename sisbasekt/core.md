@@ -91,6 +91,10 @@ Simple background procedures that are set once the bot loads and are used in oth
 ## Configuration / Metadata
 
 See the [sisbasekt.mod.json Documentation](./mod_json.md) for information about the Metadata File Format.  
+
+-! IDEA: Due to an change in [`types`](types.md), deriving the `@RequireApiVersion` automatically could be done.  
+-: [Not Required] [FUTURE] 
+
 ### Developing extensions
 
 In order to make sure your extension is propperly supported, extension writers can annotate their systems with `@RequireApiVersion`.  
