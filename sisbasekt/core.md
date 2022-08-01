@@ -4,7 +4,7 @@ Subproject of : [`SisbaseKT`](../sisbasekt.md)
 
 Discord extension manager
 
-## Uses
+## Dependencies
 [PF4J](https://github.com/pf4j/pf4j) - Plugin Framework   
 [api](api.md)  
 
