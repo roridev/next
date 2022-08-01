@@ -5,6 +5,8 @@ Part of [`core`](../core.md)
 Long-term, usually lifelong background procedures.  
 
 ## Dependency Management
+Systems can depend on other systems using the `@DependsOn` annotation.  
+Systems can add "soft dependencies" using the `@Extends` annotation.  
 
 ## Data Description
 Has the following attributes:

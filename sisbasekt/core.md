@@ -13,8 +13,6 @@ Discord extension manager
 - [Systems](core/systems.md) `META!`  
   User-provided lifelong processes. Uses range from repeating jobs bound to a timer or connectors between the bot and an external data source.  
   Systems can be manually unregistered during runtime via the `core.Manager::unregister` API.  
-  Systems can depend on other systems using the `@DependsOn` annotation.  
-  Systems can add "soft dependencies" using the `@Extends` annotation.  
   
 - System Handling `Important!`  
   Handles the lifetime of systems.  
