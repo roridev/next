@@ -59,6 +59,10 @@ See the [sisbasekt.mod.json Documentation](./mod_json.md) for information about 
 
 ## Developing extensions
 
+### Metadata
+In order for an extension to be loaded, the `sisbasekt.mod.json` file must be present at the root of the JAR file.  
+For more information on the Metadata File Format, [see above](core.md#configuration--metadata)  
+
 In order to make sure your extension is propperly supported, extension writers can annotate their systems with `@RequireApiVersion`.  
 
 On the case of a backend not supporting said version that system will be disabled and a warning will be printed to the console.  
