@@ -91,3 +91,39 @@ Simple background procedures that are set once the bot loads and are used in oth
 ## Configuration / Metadata
 
 See the [sisbasekt.mod.json Documentation](./mod_json.md) for information about the Metadata File Format.  
+### Developing extensions
+
+In order to make sure your extension is propperly supported, extension writers can annotate their systems with `@RequireApiVersion`.  
+
+On the case of a backend not supporting said version that system will be disabled and a warning will be printed to the console.  
+
+```
+[Sisbase-Loader] Dependency Error:
+	Extension `id@version` requires
+		Discord API Version >= X
+	Backend `id@version` provides
+		Discord API Version == Z
+
+The following features will be disabled:
+- Feature Name [Description]
+- Feature Name [Description]
+
+Please update or change the backend to get these features back.
+```
+
+Extension writers can also add `require-api-version` to the `mod.json` metadata file.  
+
+On the case of a backend not supporting said version the extension won't be loaded and an error will be printed to the console.  
+
+```
+[Sisbase-Loader] Critical Dependency Failure:
+	Extension `id@version` requires
+		Discord API Version >= X
+	Backend `id@version` provides
+		Discord API Version == Z
+
+Extension `id@version` is now disabled.
+
+Please update or change the backend to get `id` back.
+```
+
