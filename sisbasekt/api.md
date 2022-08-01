@@ -5,6 +5,9 @@ Subproject of: [`SisbaseKT`](../sisbasekt.md)
 A collection of interfaces representing the Discord API Spec.  
 Implemented by `Backends`.  
 
+## Dependencies
+[types](types.md)  
+
 ## Project Structure
 `org.sisbase.sisbase-api`  
 Base package  
