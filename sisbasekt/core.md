@@ -6,6 +6,7 @@ Discord extension manager
 
 ## Uses
 [PF4J](https://github.com/pf4j/pf4j) - Plugin Framework   
+[api](api.md)  
 
 ## Features
 
