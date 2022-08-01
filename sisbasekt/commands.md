@@ -6,6 +6,9 @@ Command library.
 
 Implemented as an extension. Users can use `sisbase-commands` optionally for command handling, but can also use their own command handling solutions if they so desire.  
 
+## Dependencies
+[core](core.md)  
+
 ## Commands
 Simple interactions with the user caused by a direct call to them.
 
