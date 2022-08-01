@@ -4,6 +4,8 @@ Part of [`core`](../core.md)
 
 Long-term, usually lifelong background procedures.  
 
+## Dependency Management
+
 ## Data Description
 Has the following attributes:
 
