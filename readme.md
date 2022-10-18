@@ -15,6 +15,7 @@ Once the idea is matured enough it'll be merged back into `master`.
 Everything on `master` is to be considered final.  
 _Anything_ can change inside of the branch, even what was once considered "final".  
 Once ideas become repositories links to said repositories will be added to the `Working on` section. The section may be ommited until its needed.  
+*Some* ideas may not even have a markdown file associated with them.  
 
 ## How to help
 
